@@ -260,7 +260,6 @@ MonoBehaviour:
   m_Speed: 5
   m_Grounded: 0
   m_JumpSpeed: 5
-  m_Gravity: 10
 --- !u!1001 &254299423
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -415,6 +414,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51a736d7e8a4dc742b0a5fa9d1ff7b64, type: 3}
+--- !u!1 &596870755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 596870756}
+  m_Layer: 0
+  m_Name: GunPoint
+  m_TagString: Gun
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &596870756
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 596870755}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0.247, y: 0.032, z: 0.036}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1375058289}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &982986886
 GameObject:
   m_ObjectHideFlags: 0
@@ -541,7 +570,7 @@ GameObject:
   - component: {fileID: 1173069245}
   m_Layer: 0
   m_Name: Paredes
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -676,6 +705,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2ad927f6505d0a4baf70a7da810c0d7, type: 3}
+--- !u!1 &1375058288 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100006, guid: 99778b51ae360da4489a3ed6b51dbda8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1496015244}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1375058289 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400006, guid: 99778b51ae360da4489a3ed6b51dbda8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1496015244}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1375058291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375058288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c49ee4081cfdf923bddd10b897bd76d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Projectile: {fileID: 1908441276566135411, guid: e0ee4f171c0bfcae4a0fe5a330ae2283,
+    type: 3}
+  m_Offset: 2
 --- !u!1 &1399584756
 GameObject:
   m_ObjectHideFlags: 0
@@ -710,6 +766,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1400355922 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8891605377120094184, guid: 1d96cde0fc660e64a8dd206d5c78198b,
+    type: 3}
+  m_PrefabInstance: {fileID: 5136613148169214454}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1400355927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1400355922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24c5789df9da4c0b5922763c93174247, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1496015244
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -718,6 +792,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 100000, guid: 99778b51ae360da4489a3ed6b51dbda8, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 99778b51ae360da4489a3ed6b51dbda8, type: 3}
+      propertyPath: m_TagString
+      value: Gun
+      objectReference: {fileID: 0}
+    - target: {fileID: 100022, guid: 99778b51ae360da4489a3ed6b51dbda8, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 100036, guid: 99778b51ae360da4489a3ed6b51dbda8, type: 3}
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}

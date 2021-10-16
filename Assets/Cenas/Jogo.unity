@@ -221,6 +221,46 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 183126628}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &206120423 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 99778b51ae360da4489a3ed6b51dbda8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1496015244}
+  m_PrefabAsset: {fileID: 0}
+--- !u!143 &206120424
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206120423}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 0.8
+  m_Radius: 0.3
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0.45, z: -0.2}
+--- !u!114 &206120426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206120423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0de62b14e15e6a60bb377296e2d3e021, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Speed: 5
+  m_Grounded: 0
+  m_JumpSpeed: 5
+  m_Gravity: 10
 --- !u!1001 &254299423
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -723,16 +763,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400022, guid: 99778b51ae360da4489a3ed6b51dbda8, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400036, guid: 99778b51ae360da4489a3ed6b51dbda8, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: 99778b51ae360da4489a3ed6b51dbda8, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 2f03adc028b614b4695ebb1052db2879, type: 2}
+      objectReference: {fileID: 9100000, guid: 80682fe898a4cd0a282fe6b46a05ba05, type: 2}
     - target: {fileID: 9500000, guid: 99778b51ae360da4489a3ed6b51dbda8, type: 3}
       propertyPath: m_ApplyRootMotion
       value: 0

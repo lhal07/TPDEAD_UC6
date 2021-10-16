@@ -260,95 +260,6 @@ MonoBehaviour:
   m_Speed: 5
   m_Grounded: 0
   m_JumpSpeed: 5
---- !u!1001 &254299423
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1461420785468741270, guid: 09a2150f7db86224da760cd324b6c7fc,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: be0a6c28a510e4643a30cd79022b16c1, type: 2}
-    - target: {fileID: 1461420785619974294, guid: 09a2150f7db86224da760cd324b6c7fc,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: be0a6c28a510e4643a30cd79022b16c1, type: 2}
-    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 80.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.92
-      objectReference: {fileID: 0}
-    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 5.64
-      objectReference: {fileID: 0}
-    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7017014
-      objectReference: {fileID: 0}
-    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.08726503
-      objectReference: {fileID: 0}
-    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.08726503
-      objectReference: {fileID: 0}
-    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7017014
-      objectReference: {fileID: 0}
-    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -90.00001
-      objectReference: {fileID: 0}
-    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 14.178
-      objectReference: {fileID: 0}
-    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 7660399244425301942, guid: 09a2150f7db86224da760cd324b6c7fc,
-        type: 3}
-      propertyPath: m_Name
-      value: Armadilha espinhos
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 09a2150f7db86224da760cd324b6c7fc, type: 3}
 --- !u!1001 &482061664
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -444,6 +355,144 @@ Transform:
   m_Father: {fileID: 1375058289}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!1001 &660914190
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 79.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.029
+      objectReference: {fileID: 0}
+    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7017014
+      objectReference: {fileID: 0}
+    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.08726503
+      objectReference: {fileID: 0}
+    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.08726503
+      objectReference: {fileID: 0}
+    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7017014
+      objectReference: {fileID: 0}
+    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 14.178
+      objectReference: {fileID: 0}
+    - target: {fileID: 7660399244425301942, guid: 09a2150f7db86224da760cd324b6c7fc,
+        type: 3}
+      propertyPath: m_Name
+      value: Armadilha espinhos 1 (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 09a2150f7db86224da760cd324b6c7fc, type: 3}
+--- !u!1001 &863496056
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 94.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.024
+      objectReference: {fileID: 0}
+    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 33.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7017014
+      objectReference: {fileID: 0}
+    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.08726503
+      objectReference: {fileID: 0}
+    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.08726503
+      objectReference: {fileID: 0}
+    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7017014
+      objectReference: {fileID: 0}
+    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 14.178
+      objectReference: {fileID: 0}
+    - target: {fileID: 7660399244425301942, guid: 09a2150f7db86224da760cd324b6c7fc,
+        type: 3}
+      propertyPath: m_Name
+      value: Armadilha espinhos 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 09a2150f7db86224da760cd324b6c7fc, type: 3}
 --- !u!1 &982986886
 GameObject:
   m_ObjectHideFlags: 0
@@ -999,7 +1048,7 @@ PrefabInstance:
     - target: {fileID: 883012057824147585, guid: fb237d1378e161546ba578e4545a4415,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 883012057824147585, guid: fb237d1378e161546ba578e4545a4415,
         type: 3}
@@ -1280,7 +1329,7 @@ PrefabInstance:
     - target: {fileID: 883012057824147585, guid: fb237d1378e161546ba578e4545a4415,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 883012057824147585, guid: fb237d1378e161546ba578e4545a4415,
         type: 3}
@@ -1374,7 +1423,7 @@ PrefabInstance:
     - target: {fileID: 883012057824147585, guid: fb237d1378e161546ba578e4545a4415,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 883012057824147585, guid: fb237d1378e161546ba578e4545a4415,
         type: 3}
@@ -1393,85 +1442,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb237d1378e161546ba578e4545a4415, type: 3}
---- !u!1001 &1461420785898612452
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1461420785468741270, guid: 09a2150f7db86224da760cd324b6c7fc,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: be0a6c28a510e4643a30cd79022b16c1, type: 2}
-    - target: {fileID: 1461420785619974294, guid: 09a2150f7db86224da760cd324b6c7fc,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: be0a6c28a510e4643a30cd79022b16c1, type: 2}
-    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 94.53
-      objectReference: {fileID: 0}
-    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.9369801
-      objectReference: {fileID: 0}
-    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 33.34
-      objectReference: {fileID: 0}
-    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7017014
-      objectReference: {fileID: 0}
-    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.08726503
-      objectReference: {fileID: 0}
-    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.08726503
-      objectReference: {fileID: 0}
-    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7017014
-      objectReference: {fileID: 0}
-    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -90.00001
-      objectReference: {fileID: 0}
-    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2873377363916925575, guid: 09a2150f7db86224da760cd324b6c7fc,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 14.178
-      objectReference: {fileID: 0}
-    - target: {fileID: 7660399244425301942, guid: 09a2150f7db86224da760cd324b6c7fc,
-        type: 3}
-      propertyPath: m_Name
-      value: Armadilha espinhos 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 09a2150f7db86224da760cd324b6c7fc, type: 3}
 --- !u!1001 &5136613148169214454
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1591,7 +1561,7 @@ PrefabInstance:
     - target: {fileID: 2006224143769269460, guid: 2f34d2bd2b467c64e8a2e40a4179291f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2006224143769269460, guid: 2f34d2bd2b467c64e8a2e40a4179291f,
         type: 3}

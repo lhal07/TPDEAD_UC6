@@ -4,20 +4,15 @@ using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
 
-public class MovementAlien : MonoBehaviour
+public class AlienMoviment : MonoBehaviour
 {
-
-    [SerializeField]
-    private float m_Speed = 5f;
-    [SerializeField]
-    private bool m_Grounded = false;
-    [SerializeField]
-    private float m_JumpSpeed = 5f;
+    [SerializeField] private float m_Speed = 5f;
+    [SerializeField] private bool m_Grounded = false;
+    [SerializeField] private float m_JumpSpeed = 5f;
 
     private float m_Pos_y;
     private CharacterController m_CCtrl;
 
-    private int m_Energy = 100;
     private Animator m_Anim;
 
     // Start is called before the first frame update
@@ -53,7 +48,4 @@ public class MovementAlien : MonoBehaviour
     }
     */
 
-    public void GetDamage(int damage) {
-        m_Energy -= damage;
-    }
 }

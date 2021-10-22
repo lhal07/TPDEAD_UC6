@@ -14,7 +14,7 @@ public class Gun : MonoBehaviour
     void Update()
     {
        m_Timer += Time.deltaTime;
-       if (Input.GetKey(KeyCode.Return)) {
+       if (Input.GetKey(KeyCode.X)) {
           Shoot();
        }
     }

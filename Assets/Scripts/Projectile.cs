@@ -20,7 +20,6 @@ public class Projectile : MonoBehaviour
     {
         m_Rb = gameObject.GetComponent<Rigidbody>();
         m_Rb.AddForce(this.transform.forward * m_Speed);
-        m_BW = (BreakableWall)FindObjectOfType(typeof(BreakableWall));
     }
 
     // Update is called once per frame
@@ -34,6 +33,7 @@ public class Projectile : MonoBehaviour
 
     void OnTriggerEnter(Collider col)
     {
+        m_BW = col.GetComponent<BreakableWall>();
         print ("Hit " + col.tag + "\n");
         if (col.CompareTag("Wall")) {
             DestroyProjectile();

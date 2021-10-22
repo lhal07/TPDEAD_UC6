@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8891605377116904424}
   - component: {fileID: 8891605377117903144}
   - component: {fileID: 2997532984844349099}
+  - component: {fileID: 2858227205975859842}
   m_Layer: 0
   m_Name: Quebravel
   m_TagString: BreakableWall
@@ -93,3 +94,15 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: a6664e4e90ab60e4e932b7a38cae918d, type: 3}
+--- !u!114 &2858227205975859842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8891605377120094184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24c5789df9da4c0b5922763c93174247, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

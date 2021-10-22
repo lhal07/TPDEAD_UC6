@@ -20,7 +20,7 @@ public class BreakableWall : MonoBehaviour
         if ((m_Life <= 0) && (!m_Destroyed)) {
             m_Destroyed = true;
             Destroy(this.gameObject);
-        }        
+        }
     }
 
     public void GetDamage(int damage) {

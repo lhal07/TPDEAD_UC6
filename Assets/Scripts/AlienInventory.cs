@@ -15,7 +15,7 @@ public class AlienInventory : MonoBehaviour
         return m_Score;
     }
 
-    public void ObtainedKey() {
+    public void ObtainKey() {
         m_Keys++;
     }
     

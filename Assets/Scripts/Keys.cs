@@ -2,12 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Gems : Collectable
+public class Keys : Collectable
 {
-    private int m_Points = 5;
-
     public override void DetectedPlayer()
     {
-        m_Alien.AddScore(m_Points);
+        m_Alien.ObtainKey();
     }
 }

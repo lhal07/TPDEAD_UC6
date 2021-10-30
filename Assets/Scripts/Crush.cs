@@ -31,11 +31,6 @@ public class Crush : Trap
             foreach(HitBox hb in m_HitBoxes) {
                 enteredBothHitBoxes &= hb.PlayerEnteredHitBox();
             }
-            Debug.Log("HitBoxes:" + 
-                    m_HitBoxes[0].DetectPlayer().ToString() +
-                    " " + 
-                    m_HitBoxes[1].DetectPlayer().ToString());
-            //Debug.Log("enteredBothHitBoxes: " + enteredBothHitBoxes.ToString());
             // If both HItBoxes detect player, the player gets damage
             if (hitPlayer && !m_HasHitPlayer) {
                 m_HasHitPlayer = true;
@@ -50,12 +45,10 @@ public class Crush : Trap
     }
 
     public void ActivateTrap() {
-        Debug.Log("ActivatedTrap");
         m_Anim.SetBool("Activated", true);
     }
 
     public void StopTrap() {
-        Debug.Log("StopTrap");
         m_Anim.SetBool("Activated", false);
         m_HasHitPlayer = false;
     }

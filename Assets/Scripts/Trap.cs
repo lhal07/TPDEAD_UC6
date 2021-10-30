@@ -10,7 +10,6 @@ public abstract class Trap : MonoBehaviour
     protected float m_TimeDamage = 1.0f;
 
     public void DamagePlayer() {
-        Debug.Log("Damage Player: " + m_Damage.ToString());
         m_Alien.GetDamage(m_Damage);
     }
 
@@ -20,7 +19,6 @@ public abstract class Trap : MonoBehaviour
 
     protected void OnTriggerEnter(Collider collider)
     {
-        Debug.Log("OnTriggerEnter\n");
         if (collider.gameObject.tag == "Player") {
             DamagePlayer();
             m_Timer = 0;
@@ -29,7 +27,6 @@ public abstract class Trap : MonoBehaviour
 
     protected virtual void OnTriggerStay(Collider collider)
     {
-        Debug.Log("OnTriggerStay\n");
         if (collider.gameObject.tag == "Player") {
             m_Timer += Time.deltaTime;
             if (m_Timer >= m_TimeDamage) {

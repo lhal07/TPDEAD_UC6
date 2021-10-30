@@ -11,7 +11,6 @@ public class HitBox : MonoBehaviour
     protected void OnTriggerEnter(Collider collider)
     {
         if (collider.gameObject.tag == "Player") {
-            Debug.Log("Detected Player\n");
             m_PlayerEnterHitBox = true;
             m_PlayerExitHitBox = false;
         }
@@ -37,7 +36,7 @@ public class HitBox : MonoBehaviour
     public bool PlayerEnteredHitBox() {
         return m_PlayerEnterHitBox;
     }
-    
+
     public bool PlayerOnHitBox() {
         return m_PlayerOnHitBox;
     }
@@ -48,12 +47,5 @@ public class HitBox : MonoBehaviour
 
     public bool DetectPlayer() {
         return ( m_PlayerEnterHitBox || m_PlayerOnHitBox ) && !m_PlayerExitHitBox;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        //Debug.Log("m_PlayerEnterHitBox: " + m_PlayerEnterHitBox.ToString());
-        //Debug.Log("m_PlayerExitHitBox: " + m_PlayerExitHitBox.ToString());
     }
 }

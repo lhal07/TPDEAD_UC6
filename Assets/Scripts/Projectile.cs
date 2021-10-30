@@ -34,7 +34,6 @@ public class Projectile : MonoBehaviour
     void OnTriggerEnter(Collider col)
     {
         m_BW = col.GetComponent<BreakableWall>();
-        print ("Hit " + col.tag + "\n");
         if (col.CompareTag("Wall")) {
             DestroyProjectile();
             return;
